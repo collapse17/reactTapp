@@ -1,0 +1,62 @@
+.groups{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0px;
+    left: 0px;
+    z-index: 1000000;
+    background-color: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.groups-logo{
+    width: 30vw;
+    margin: 10vh 0 0 15vw;
+}
+.groups-title{
+    font-family: "SansRounded";
+    font-size: 3.2vh;
+    margin: 8vh 0 0 15vw;
+    width: 100%;
+    color: #353535;
+    opacity: 0.9;
+}
+.groups-subtitle{
+    color: #707070;
+    font-size: 2.2vh;
+    margin: 2vh 0 15vw 15vw;
+    width: 100%;
+    font-weight: 400;
+}
+.groups .group{
+    font-family: "SansRounded";
+    float: right;
+    border-radius: 8px 0 0 8px;
+    background-color: rgba(237,63,67,.12);
+    border: 4px solid rgba(237,63,67,0);
+    color: rgba(237,63,67,0.82);
+    text-align: left;
+    padding: 1.7vh 0 1.7vh 4vw;
+    font-size: 2.4vh;
+    margin-bottom: 2.2vh;
+    width: 65vw;
+    margin-right: -8px;
+}
+
+.groups-button{
+    float: left;
+    margin-left: 31vw;
+    margin-top: 6vh;
+    width: 50vw;
+    text-align: center;
+    background-color: #ed3f43;
+    border-radius: 8px;
+    color: #fff;
+    padding: 2vh;
+    font-weight: 400;
+    opacity: 0.95;
+    font-size: 2.2vh;
+}
+.group-select{
+    border: 4px solid rgba(237,63,67,0.8) !important;
+}

@@ -1,0 +1,43 @@
+.report{
+    margin: -3vh 5vw 0 15vw;
+}
+.report .popup-section{
+    margin-top: 2vh !important;
+}
+.report .popup-section span{
+    font-size: 2vh !important;
+}
+.report .popup-section input, .popup-section textarea {
+    padding: 1vh 3vw !important;
+    font-size: 2.5vh !important;
+    margin-top: 1vh !important;
+}
+.report .popup-section.submit {
+    margin-top: 3vh !important;
+}
+
+.data{
+    padding: 0.5vh 3vw !important;
+    font-size: 3vh !important;
+    margin-top: 1vh !important;
+    margin-bottom: 2vh !important;
+    margin-right: 2vh !important;
+    float: right !important;
+    clear: right !important;
+    width: 80% !important;
+    text-align: center !important;
+}
+.info{
+    padding: 0.5vh 3vw !important;
+    font-size: 3vh !important;
+    margin-top: 1vh !important;
+    margin-bottom: 2vh !important;
+    width: auto !important;
+    float: left !important;
+}
+.popup-section input{
+    -webkit-user-select: text; /* Chrome, Opera, Safari */
+    -moz-user-select: text; /* Firefox 2+ */
+    -ms-user-select: text; /* IE 10+ */
+    user-select: text; /* Standard syntax */
+}

@@ -1,0 +1,127 @@
+.light-BG{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    opacity: 0.5;
+    left: 0px;
+    top:0px;
+    z-index: 100;
+}
+.card-avatar{
+    width: 30vw;
+    height: 30vw;
+    margin: -6vw 3vw 0 -5vh;
+
+}
+.popup-container{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    z-index: 2000;
+}
+.popup-content{
+    position: relative;
+    margin: 20px 10px 20px 10px;
+    padding: 20px 10px 10px 30px;
+    border-radius: 12px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.popup-content p{
+    color: rgba(26,26,28, 0.7);
+    line-height: 22px;
+    font-size: 13px;
+    white-space: pre-line;
+}
+.popup-content h1{
+    font-family: "SansRounded";
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 1vh;
+    margin-left: 30px;
+}
+.popup-content h2{
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 0px;
+}
+.popup-back-button{
+    width: 18px;
+    height: 16px;
+    padding: 15px 15px;
+    margin-left: -15px;
+    float: left;
+    z-index: 1000;
+    position: absolute;
+}
+.popup-back-button img{
+    width: 18px;
+    height: 16px;
+}
+.red-block{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-color: #FF4C50;
+    width: 10px;
+    height: 100%;
+}
+
+.student-card{
+    position: relative;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.10);
+    border-radius: 5px;
+    height: 70px;
+    overflow: hidden;
+    margin-bottom: 1.2vh;
+}
+.student-card img{
+    float: left;
+    margin-right: 2vw;
+}
+.student-card-title{
+    font-size: 2.4vh;
+    font-family: "SansRounded";
+    color: #000;
+    clear: right;
+    display: block;
+    margin: 1vh 0 0 0vw;
+}
+.student-card-subtitle{
+    font-size: 1.8vh;
+    color: #8C9AA8;
+    clear: right;
+    display: block;
+    margin: 0.5vh 0 0 0vw;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 47%;
+}
+.student-card-phone{
+    position: absolute;
+    right: -35px;
+    top: -15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #ED3F43;
+    text-align: left;
+}
+.student-card-phone img{
+    margin: 40px 0 0 25px;
+    height: 20px;
+}

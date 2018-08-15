@@ -1,0 +1,43 @@
+.school-card{
+    position: relative;
+    background: #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 1.5vh;
+    padding-left: 10vw;
+}
+.school-openstatus{
+    position: absolute;
+    left: 2vw;
+    top:50%;
+    height: 16px;
+    width: 16px;
+    margin-top: -12px;
+    background-color: #7ED321;
+    border-radius: 50%;
+}
+.school-card-title{
+    font-size: 2.6vh;
+    font-family: "SansRounded";
+    color: #494949;
+    clear: right;
+    display: block;
+    margin: 1vh 0 0 0vw;
+
+}
+.school-card-subtitle{
+    font-size: 1.8vh;
+    color: #8C9AA8;
+    clear: right;
+    display: block;
+    margin: 0.5vh 0 0 0vw;
+}
+.school-card-phone{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 2vh;
+    text-align: left;
+}
+.school-card-phone img{
+    height: 20px;
+}

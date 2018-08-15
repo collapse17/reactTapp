@@ -1,0 +1,28 @@
+.hover-BG{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #0B0B0B;
+    opacity: 0.89;
+    z-index: 5002;
+
+    transition: opacity 0.75s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+}
+.hover-menu{
+    position: fixed;
+    top:45%;
+    left: 30px;
+    z-index: 5003;
+    color:#fff;
+}
+.hover-menu li{
+    list-style: none;
+    font-size: 24px;
+    opacity: 0.7;
+}
+.menu-item-active{
+    color: #fff !important;
+    opacity: 1 !important;
+}

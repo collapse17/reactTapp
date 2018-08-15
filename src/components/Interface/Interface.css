@@ -1,0 +1,117 @@
+.interface{
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-sizing: border-box;
+}
+.menu-dotsBlock{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: auto;
+    top:50%;
+    left: 0px;
+}
+.menu-dotsBlock_z{
+    z-index: 100000;
+}
+.menu-dotsBlock_z span{
+    border:2px solid #fff !important;
+}
+.menu-dotsBlock_z span.active{
+    background-color: #fff !important;
+}
+.menu-dotsBlock span{
+    display: block;
+    clear: both;
+    width: 4px;
+    height: 4px;
+    border:2px solid #707070;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.menu-dotsBlock span.active{
+    display: block;
+    clear: both;
+    width: 4px;
+    height: 4px;
+    border:2px solid #707070;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    background-color: #707070;
+}
+.pageName{
+    display: block;
+    transform: rotate(-90deg);
+    position: absolute;
+    top:15%;
+    width: 150px;
+    left: -60px;
+    color:#353535;
+    font-size: 16px;
+}
+.pageName-line{
+    width: 40px;
+    height: 2px;
+    background: #707070;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    margin-top: -1px;
+}
+.menuBtn{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    bottom: 16px;
+    left: 13px;
+    background-image: url("../../images/menu.png");
+    background-size: cover;
+}
+
+.hover-menu_bg{
+    position: absolute;
+    left: 0px;
+    top:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,1);
+    z-index: 1000;
+}
+
+.bottom-menu-animation-enter {
+opacity: 0.01;
+}
+.bottom-menu-animation-enter.bottom-menu-animation-enter-active {
+    opacity: 1;
+    transition: opacity 300ms ease-in;
+}
+.bottom-menu-animation-leave {
+    opacity: 1;
+}
+.bottom-menu-animation-leave.bottom-menu-animation-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+.hover-menu-animation-enter {
+    opacity: 0.01;
+    z-index: 5005;
+}
+.hover-menu-animation-enter.hover-menu-animation-enter-active {
+    opacity: 1;
+    transition: opacity 100ms ease-in;
+}
+.hover-menu-animation-leave {
+    opacity: 1;
+    z-index: 5005;
+}
+.hover-menu-animation-leave.hover-menu-animation-leave-active {
+    opacity: 0.01;
+    transition: opacity 350ms ease-in;
+}

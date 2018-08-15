@@ -1,0 +1,60 @@
+.teacher-card-title{
+    font-size: 4vw;
+    font-family: "SansRounded";
+    color: #000;
+    clear: right;
+    display: block;
+    margin: 2vh 0 0 0vw;
+}
+
+.teacher-card-subtitle{
+    font-size: 3.5vw;
+    color: #8C9AA8;
+    clear: right;
+    display: block;
+    margin: 0.2vh 0 0 0vw;
+}
+.teachers-buttons{
+    width: auto;
+    position: absolute;
+    right: 20vw;
+    top: 4vh;
+}
+.teachers-buttons a{
+    display: block;
+    float: right;
+    margin: 0 2vw;
+}
+.teacher-card-tick{
+    position: absolute;
+    right: -35px;
+    top: -15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #EDEDED;
+    text-align: left;
+}
+.teacher-card-tick.active{
+    background-color: #ED3F43;
+}
+
+.teacher-card-tick img{
+    margin: 43px 0 0 27px !important;
+}
+
+.popup-content.subtitle h1 {
+    font-family: "SansRounded";
+    font-size: 3.4vh;
+    font-weight: 400;
+    position: relative;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+.popup-content.subtitle h3 {
+    margin-left: 30px;
+    margin-top: 0;
+    font-size: 2vh;
+    font-weight: 400;
+}

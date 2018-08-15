@@ -1,0 +1,21 @@
+.loading-screen{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top:0px;
+    left: 0px;
+    z-index: 10000;
+    background-color: #fff;
+}
+.loading-text{
+    width: auto;
+    text-align: center;
+    font-size: 10vw;
+    font-weight: bold;
+    color: #ED3F43;
+    margin: auto;
+    margin-top: 50%;
+}
+.loading-text img{
+    max-width: 100%;
+}

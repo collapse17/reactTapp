@@ -1,0 +1,63 @@
+.popup-section{
+    margin-top: 3vh;
+}
+.popup-section span{
+    font-family: "SansRounded";
+    font-size: 2.4vh;
+    color: #353535;
+    padding-left: 2vw;
+}
+.popup-section input , .popup-section textarea{
+    width: 95%;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 8.9px;
+    padding: 2vh 3vw;
+    -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* margin-right: 15vw; */
+    outline: none;
+    outline-color: transparent;
+    font-family: "SansRounded";
+    font-size: 3.4vh;
+    margin-top: 1vh;
+}
+
+
+.popup-section.submit{
+    width: 95%;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 8.9px;
+    padding: 2vh 3vw;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    /* margin-right: 15vw; */
+    outline: none;
+    outline-color: transparent;
+    font-family: "SansRounded";
+    font-size: 3.4vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+
+}
+.popup-section.submit{
+    position: relative;
+    overflow: hidden;
+}
+.popup-section.submit .right-button {
+    position: absolute;
+    top: -5px;
+    height: 120%;
+    width: 60px;
+    right: -10px;
+    border-radius: 80%;
+    background-color: #ED3F43;
+    text-align: left;
+}
+.popup-section.submit .right-button img{
+	margin: 4vh 0 0 5vw;
+    height: 2.5vh;
+}

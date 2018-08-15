@@ -1,0 +1,26 @@
+{
+  "name": "easyschool",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-polyfill": "^6.23.0",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-dynamic-font": "0.0.4",
+    "react-easy-swipe": "0.0.13",
+    "react-fittext": "^1.0.0",
+    "react-scale-text": "^1.1.2",
+    "react-scripts": "1.0.10",
+    "react-swipe": "^5.0.8",
+    "swipe-js-iso": "^2.0.3",
+    "universal-cookie": "^2.0.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

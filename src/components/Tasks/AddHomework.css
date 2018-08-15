@@ -1,0 +1,16 @@
+.homework-file{
+    position: relative;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0 4px 6px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.10);
+    border-radius: 5px;
+    height: 60px;
+    overflow: hidden;
+    margin-bottom: 1.2vh;
+    margin-right: 2.5vh;
+    padding-left: 2vh;
+    margin-top: 2vh;
+}
+.homework-file .teacher-card-tick{
+    top: -20px;
+}

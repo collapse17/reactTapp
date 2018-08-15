@@ -1,0 +1,61 @@
+.news-page-container div{
+    overflow: visible !important;
+}
+.news-page-container{
+    height: 100vh;
+}
+.news-item{
+    background-position: center !important;
+	position: relative;
+	height: 86vh;
+	border-radius: 5px;
+	background:
+        linear-gradient(39deg, rgba(0,0,0,0.00) 82%, rgba(0,0,0,0.50) 99%),
+        linear-gradient(212deg, rgba(255,255,255,0.1) 0%, #C70505 92%),
+        url('../../images/news-placeholder.png');
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09), 0 30px 20px 0 rgba(0,0,0,0.1);
+	background-size: cover !important;
+    margin-top: 4vh;
+}
+.news-container{
+    box-sizing: border-box;
+    padding-left: 28px;
+    padding-right: 10px;
+}
+.news-date{
+    font-family: "SansRounded";
+    position: absolute;
+    left: 1vw;
+    top:-7vh;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    padding: 15px 15px;
+    color:#F5F5F5;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+.news-title{
+    font-family: "SansRounded";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    padding: 15px 15px;
+    color:#F5F5F5;
+    font-size: 36px;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 7vh;
+}
+
+.news-image{
+    width: 100%;
+    height: auto;
+    margin: 20px 0px 0px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
